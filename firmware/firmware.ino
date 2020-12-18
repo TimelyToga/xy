@@ -31,16 +31,17 @@ int stepAuxDelay = 0;
 #define STEPS_PER_MM 87.58 // the same as 3d printer
 #define MIN_STEP_DELAY 250
 #define MAX_STEP_DELAY 1000
+#define PEN_UP 140
 
 int stepdelay_min;
 int stepdelay_max;
-int ylimit_pin1 = 12;
-int ylimit_pin2 = 13;
-int xlimit_pin1 = A2;
-int xlimit_pin2 = A3;
+int ylimit_pin1 = 13;
+int ylimit_pin2 = 12;
+int xlimit_pin1 = A3;
+int xlimit_pin2 = A2;
 int servopin = A1;
 Servo servoPen;
-int servo_position = 0;
+int servo_position = 120;
 
 float curX, curY, curZ;
 float tarX, tarY, tarZ; // target xyz position
