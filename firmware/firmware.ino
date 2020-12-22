@@ -24,7 +24,7 @@ static union{
 int stepAuxDelay = 0;
 
 #define REQ_NEXT_CMD_CHAR 'N'
-#define MS_BEFORE_SERVO_SLEEP 1000
+#define MS_BEFORE_SERVO_SLEEP 900
 #define SPEED_STEP 1
 #define WIDTH 310
 #define HEIGHT 380
